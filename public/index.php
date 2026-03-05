@@ -19,13 +19,13 @@
     <div class="container">
         <h1>Login</h1>
         <form action="#" method="get">
-            <label for="">Nome</label>
-            <input type="text">
-            <label for="Senha">Senha</label>
-            <input type="password" name="" id="">
-            <input type="submit" value="ENVIAR">
+            <!-- <label for="">Nome</label> -->
+            <input type="text" name="#" id="#" placeholder="Nome">
+            <!-- <label for="Senha">Senha</label> -->
+            <input type="password" name="" id="" placeholder="Senha">
+            <button class="button" type="submit">ENVIAR</button>
         </form>
-        <a href="#">Ainda não tenho cadastro</a>
+        <a class="link" href="register.php">Ainda não tenho cadastro</a>
         <nav>
             <a href="index.php">Home</a> |
             <a href="dashboard.php">Dashboard</a> |

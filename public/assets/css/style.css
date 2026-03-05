@@ -13,6 +13,7 @@
 :root {
     --color-dark: #2b2b2b;
     --color-light: #ffffff;
+    --color-placeholder: #F9A05E;
     --font-family: inter;
     --h1: bold min(6vw, 2.5rem) var(--font-family);
     --h2: bold min(5vw, 2rem) var(--font-family);
@@ -22,7 +23,7 @@
 body {
     /* Background */
     min-height: 100vh;
-    background: linear-gradient(180deg,
+    background: linear-gradient(0deg,
             #4A90B2 0%,
             #8E9AAF 35%,
             #D9A5B3 60%,
@@ -34,41 +35,71 @@ body {
     justify-content: center;
 }
 
-h1 {
-    font: var(--h1);
-    color: var(--color-light);
-    background: var(--color-dark);
-    border-radius: 8px;
-    padding: 1vh 9vw;
-    margin-bottom: 5vh;
-}
 
 .container {
     /* alinhamento */
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    border-radius: ;
-
     /* testes */
-    background-color: grey;
     padding: 8vw;
+}
+
+h1 {
+    font: var(--h1);
+    color: var(--color-light);
+    background: var(--color-dark);
+    border-radius: 8px;
+    padding: 1.5vh 15vw;
+    /* margin-bottom: 5vh; */
 }
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 7vh;
+    margin: 15vw 0vw;
+}
 
+form input {
+    background: none;
+    stroke-linejoin: bevel;
+    padding: 1vh 2.5vw;
+    border: none;
+    border-bottom: solid 1px var(--color-light);
+    width: 45vw;
+}
+
+form input::placeholder {
+    color: var(--color-light);
+}
+
+.button {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: 3vw 9vw;
+    border-radius: 8px;
+    margin-bottom: 4vh;
+    border: none;
+    font: bolder;
+}
+
+button:hover {
+    background-color: var(--color-placeholder);
+    border: solid 1px var(--color-light);
+}
+
+.link {
+    font: var(--regular);
 }
 
 nav {
     margin: 5vh 0vh;
 }
 
-/* @media (min-width: 1025) {
-    section {
+/* @media (min-width: 1024px) {
+    .container {
         background-color: blueviolet;
     }
 } */

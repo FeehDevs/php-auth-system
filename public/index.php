@@ -19,9 +19,7 @@
     <div class="container">
         <h1>Login</h1>
         <form action="#" method="get">
-            <!-- <label for="">Nome</label> -->
             <input type="text" name="#" id="#" placeholder="Nome">
-            <!-- <label for="Senha">Senha</label> -->
             <input type="password" name="" id="" placeholder="Senha">
             <button class="button" type="submit">ENVIAR</button>
         </form>

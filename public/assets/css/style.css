@@ -13,7 +13,7 @@
 
 /* =========================
    FONTES
-   Importação da fonte Inter
+   Importação da fonte
 ========================= */
 
 @font-face {
@@ -87,7 +87,7 @@ body {
 
 
 /* =========================
-   TÍTULO DA PÁGINA
+   TÍTULO DAS PÁGINAS
 ========================= */
 
 h1 {
@@ -100,6 +100,50 @@ h1 {
     padding: var(--space-sm) var(--space-xl);
 }
 
+/* =========================
+   SUBTÍTULO DO DASHBOARD
+========================= */
+
+h2 {
+    font: var(--h2);
+    color: var(--color-light);
+    border-bottom:1px solid var(--color-light);
+    margin: var(--space-sm);
+}
+
+/* =========================
+   TEXTO PADRÃO
+========================= */
+
+p {
+    font: var(--regular);
+    color: var(--color-light);
+    margin: var(--space-xs);
+}
+
+/* =========================
+INFOMAÇÕES DASHBOARD
+========================= */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs);
+}
+
+/* =========================
+EMAIL DASHBOARD
+========================= */
+
+.email {
+    padding: var(--space-xs);
+}
+.birth {
+    padding: var(--space-xs);
+}
 
 /* =========================
    FORMULÁRIO
@@ -206,10 +250,9 @@ nav {
    Ajustes para telas maiores
 ========================= */
 
-/*
+
 @media (min-width: 1024px) {
     .container {
         background-color: blueviolet;
     }
 }
-*/

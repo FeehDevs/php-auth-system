@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
+
+:root {
+    --color-dark: #2b2b2b;
+    --color-light: #ffffff;
+    --font-family: inter;
+    --h1: bold min(6vw, 2.5rem) var(--font-family);
+    --h2: bold min(5vw, 2rem) var(--font-family);
+    --regular: normal min(4vw, 1.2rem) var(--font-family);
+}
+
 body {
-    margin: 0;
+    /* Background */
     min-height: 100vh;
     background: linear-gradient(180deg,
-        #4A90B2 0%,
-        #8E9AAF 35%,
-        #D9A5B3 60%,
-        #F9A05E 85%,
-        #FF8C00 100%);
+            #4A90B2 0%,
+            #8E9AAF 35%,
+            #D9A5B3 60%,
+            #F9A05E 85%,
+            #FF8C00 100%);
+}
+
+h1 {
+    font: var(--h1);
+    color: var(--color-light);
+    background: var(--color-dark);
+    border-radius: 8px;
+    display: inline;
+    padding: 10px;
 }

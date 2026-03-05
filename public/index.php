@@ -15,14 +15,24 @@
 </head>
 
 <body>
-    <h1>Login</h1>
-    <h2>Bem vindo Felipe!</h2>
-    <nav>
-        <a href="index.php">Home</a> |
-        <a href="dashboard.php">Dashboard</a> |
-        <a href="register.php">Registrar</a>
-    </nav>
-    <s></s>
+
+    <div class="container">
+        <h1>Login</h1>
+        <form action="#" method="get">
+            <label for="">Nome</label>
+            <input type="text">
+            <label for="Senha">Senha</label>
+            <input type="password" name="" id="">
+            <input type="submit" value="ENVIAR">
+        </form>
+        <a href="#">Ainda não tenho cadastro</a>
+        <nav>
+            <a href="index.php">Home</a> |
+            <a href="dashboard.php">Dashboard</a> |
+            <a href="register.php">Registrar</a>
+        </nav>
+    </div>
+
 </body>
 
 </html>

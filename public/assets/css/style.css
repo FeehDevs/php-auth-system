@@ -9,6 +9,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 }
 
+/* Variaveis */
 :root {
     --color-dark: #2b2b2b;
     --color-light: #ffffff;
@@ -27,6 +28,10 @@ body {
             #D9A5B3 60%,
             #F9A05E 85%,
             #FF8C00 100%);
+    /* alinhamento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -34,6 +39,36 @@ h1 {
     color: var(--color-light);
     background: var(--color-dark);
     border-radius: 8px;
-    display: inline;
-    padding: 10px;
+    padding: 1vh 9vw;
+    margin-bottom: 5vh;
 }
+
+.container {
+    /* alinhamento */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: ;
+
+    /* testes */
+    background-color: grey;
+    padding: 8vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+nav {
+    margin: 5vh 0vh;
+}
+
+/* @media (min-width: 1025) {
+    section {
+        background-color: blueviolet;
+    }
+} */

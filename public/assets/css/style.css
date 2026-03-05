@@ -1,113 +1,215 @@
+/* =========================
+   RESET GLOBAL
+   Remove margens padrão do navegador
+   e garante cálculo de layout consistente
+========================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* =========================
+   FONTES
+   Importação da fonte Inter
+========================= */
+
 @font-face {
     font-family: inter;
     src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 }
 
-/* Variaveis */
+
+/* =========================
+   DESIGN SYSTEM / VARIÁVEIS
+   Centraliza cores, tipografia e estilos reutilizáveis
+========================= */
+
 :root {
     --color-dark: #2b2b2b;
     --color-light: #ffffff;
     --color-placeholder: #F9A05E;
+
     --font-family: inter;
+
+    /* Tipografia responsiva */
     --h1: bold min(6vw, 2.5rem) var(--font-family);
     --h2: bold min(5vw, 2rem) var(--font-family);
     --regular: normal min(4vw, 1.2rem) var(--font-family);
+
+    /* Escala de espaçamento */
+    --space-xs: 0.5rem;   /* 8px */
+    --space-sm: 1rem;     /* 16px */
+    --space-md: 1.5rem;   /* 24px */
+    --space-lg: 2rem;     /* 32px */
+    --space-xl: 3rem;     /* 48px */
 }
 
+
+/* =========================
+   BODY
+   Aplica background gradiente
+   e centraliza o conteúdo da página
+========================= */
+
 body {
-    /* Background */
     min-height: 100vh;
-    background: linear-gradient(0deg,
-            #4A90B2 0%,
-            #8E9AAF 35%,
-            #D9A5B3 60%,
-            #F9A05E 85%,
-            #FF8C00 100%);
-    /* alinhamento */
+
+    background: linear-gradient(
+        0deg,
+        #4A90B2 0%,
+        #8E9AAF 35%,
+        #D9A5B3 60%,
+        #F9A05E 85%,
+        #FF8C00 100%
+    );
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
+/* =========================
+   CONTAINER PRINCIPAL
+   Estrutura que envolve o login
+========================= */
+
 .container {
-    /* alinhamento */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* testes */
-    padding: 8vw;
+
+    padding: var(--space-xl);
 }
+
+
+/* =========================
+   TÍTULO DA PÁGINA
+========================= */
 
 h1 {
     font: var(--h1);
     color: var(--color-light);
     background: var(--color-dark);
+
     border-radius: 8px;
-    padding: 1.5vh 15vw;
-    /* margin-bottom: 5vh; */
+
+    padding: var(--space-sm) var(--space-xl);
 }
+
+
+/* =========================
+   FORMULÁRIO
+   Layout vertical para inputs
+========================= */
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 7vh;
-    margin: 15vw 0vw;
+
+    gap: var(--space-lg);
+    margin: var(--space-xl) 0;
 }
+
+
+/* =========================
+   INPUTS
+   Estilo minimalista com borda inferior
+========================= */
 
 form input {
     background: none;
     stroke-linejoin: bevel;
-    padding: 1vh 2.5vw;
+
+    padding: var(--space-xs) var(--space-md);
+
     border: none;
     border-bottom: solid 1px var(--color-light);
+
     width: 45vw;
 }
+
+
+/* Texto de dica dentro do input */
 
 form input::placeholder {
     color: var(--color-light);
     text-decoration: none;
 }
 
+
+/* Estado ativo quando o usuário seleciona o campo */
+
 form input:focus {
     border: 0;
     outline: none;
+
     color: var(--color-light);
+
     border-bottom: 4px solid var(--color-placeholder);
 }
+
+
+/* =========================
+   BOTÃO PRINCIPAL
+========================= */
 
 .button {
     background-color: var(--color-dark);
     color: var(--color-light);
-    padding: 3vw 9vw;
+
+    padding: var(--space-sm) var(--space-lg);
+
     border-radius: 8px;
-    margin-bottom: 4vh;
+
+    margin-bottom: var(--space-lg);
+
     border: none;
-    font: bolder;
+
+    font-weight: bold;
 }
+
+
+/* Efeito hover do botão */
 
 button:hover {
     background-color: var(--color-placeholder);
     border: solid 1px var(--color-light);
 }
 
+
+/* =========================
+   LINK DE REGISTRO
+========================= */
+
 .link {
     font: var(--regular);
 }
 
+
+/* =========================
+   NAVEGAÇÃO DE TESTES
+   Para validações e testes
+========================= */
+
 nav {
-    margin: 5vh 0vh;
+    margin: var(--space-lg) 0;
 }
 
-/* @media (min-width: 1024px) {
+
+/* =========================
+   RESPONSIVIDADE (DESKTOP)
+   Ajustes para telas maiores
+========================= */
+
+/*
+@media (min-width: 1024px) {
     .container {
         background-color: blueviolet;
     }
-} */
+}
+*/

@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: aqua;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg,
+        #4A90B2 0%,
+        #8E9AAF 35%,
+        #D9A5B3 60%,
+        #F9A05E 85%,
+        #FF8C00 100%);
 }

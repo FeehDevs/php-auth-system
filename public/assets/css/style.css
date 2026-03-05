@@ -73,6 +73,14 @@ form input {
 
 form input::placeholder {
     color: var(--color-light);
+    text-decoration: none;
+}
+
+form input:focus {
+    border: 0;
+    outline: none;
+    color: var(--color-light);
+    border-bottom: 4px solid var(--color-placeholder);
 }
 
 .button {

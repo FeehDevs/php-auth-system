@@ -30,11 +30,6 @@
             </div>
             <button class="button" type="submit">DESCONECTAR</button>
         </div>
-        <nav>
-            <a href="index.php">Home</a> |
-            <a href="dashboard.php">Dashboard</a> |
-            <a href="register.php">Registrar</a>
-        </nav>
     </div>
 
 </body>

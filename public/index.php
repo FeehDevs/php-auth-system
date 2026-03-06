@@ -24,11 +24,6 @@
             <button class="button" type="submit">ENVIAR</button>
         </form>
         <a class="link" href="register.php">Ainda não tenho cadastro</a>
-        <nav>
-            <a href="index.php">Home</a> |
-            <a href="dashboard.php">Dashboard</a> |
-            <a href="register.php">Registrar</a>
-        </nav>
     </div>
 
 </body>

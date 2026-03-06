@@ -188,6 +188,8 @@ form input {
     background: none;
     stroke-linejoin: bevel;
 
+    color: var(--color-light);
+
     padding: var(--space-xs) var(--space-md);
 
     border: none;
@@ -201,7 +203,6 @@ form input {
 
 form input::placeholder {
     color: var(--color-light);
-    text-decoration: none;
 }
 
 

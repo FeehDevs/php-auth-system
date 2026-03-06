@@ -19,9 +19,9 @@
     <div class="container">
         <h1>Cadastro</h1>
         <form action="#" method="get">
-            <input type="text" name="#" id="#" placeholder="Nome">
-            <input type="email" name="" id="" placeholder="E-mail">
-            <input type="password" name="" id="" placeholder="Senha">
+            <input type="text" name="#" id="#" placeholder="Nome" require>
+            <input type="email" name="" id="" placeholder="E-mail" require>
+            <input type="password" name="" id="" placeholder="Senha" require>
             <button class="button" type="submit">ENVIAR</button>
         </form>
         <a class="link" href="index.php">Já tenho cadastro</a>

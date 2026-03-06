@@ -19,8 +19,8 @@
     <div class="container">
         <h1>Login</h1>
         <form action="#" method="get">
-            <input type="text" name="#" id="#" placeholder="Nome">
-            <input type="password" name="" id="" placeholder="Senha">
+            <input type="text" name="#" id="#" placeholder="Nome" require>
+            <input type="password" name="" id="" placeholder="Senha" require>
             <button class="button" type="submit">ENVIAR</button>
         </form>
         <a class="link" href="register.php">Ainda não tenho cadastro</a>

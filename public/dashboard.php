@@ -26,7 +26,7 @@
             </div>
             <div class="birth">
                 <p>Data de criação</p>
-                <p>{date}</p>
+                <p>{Data de criação}</p>
             </div>
         </div>
         <nav>

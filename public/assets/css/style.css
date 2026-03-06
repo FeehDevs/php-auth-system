@@ -119,6 +119,8 @@ p {
     font: var(--regular);
     color: var(--color-light);
     margin: var(--space-xs);
+    display: flex;
+    justify-content: center;
 }
 
 /* =========================

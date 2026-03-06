@@ -28,6 +28,7 @@
                 <p>Data de criação</p>
                 <p>{Data de criação}</p>
             </div>
+            <button class="button" type="submit">DESCONECTAR</button>
         </div>
         <nav>
             <a href="index.php">Home</a> |

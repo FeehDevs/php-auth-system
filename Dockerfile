@@ -12,7 +12,7 @@ COPY . .
 # Set proper permissions
 RUN chown -R www-data:www-data /var/www/html
 
-# Configure Apache to use backend/index.php as entry point
+# Configure Apache to use frontend/public/index.php as entry point
 RUN echo '<Directory /var/www/html>\n\
     Options Indexes FollowSymLinks\n\
     AllowOverride All\n\
@@ -23,7 +23,7 @@ RUN echo '<Directory /var/www/html>\n\
         RewriteBase /\n\
         RewriteCond %{REQUEST_FILENAME} !-f\n\
         RewriteCond %{REQUEST_FILENAME} !-d\n\
-        RewriteRule ^backend/(.*)$ /backend/index.php [L]\n\
+        RewriteRule ^(.*)$ /frontend/public/index.php [L]\n\
     </IfModule>\n\
 </Directory>' > /etc/apache2/conf-available/php-app.conf && \
 a2enconf php-app

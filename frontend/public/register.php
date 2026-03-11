@@ -10,8 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script defer src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="/frontend//public//css//style.css">
+    <script defer src="/frontend/public/js/script.js"></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <input type="password" name="" id="" placeholder="Senha" require>
             <button class="button" type="submit">ENVIAR</button>
         </form>
-        <a class="link" href="index.php">Já tenho cadastro</a>
+        <a class="link" href="/backend//index.php">Já tenho cadastro</a>
     </div>
 
 </body>

@@ -1,0 +1,22 @@
+INSERT INTO users (name, email, password_hash)
+VALUES
+('Felipe Gonçalves', 'felipe@email.com', '$2y$10$ExemploHashFelipe123456789'),
+('Maria Silva', 'maria@email.com', '$2y$10$ExemploHashMaria123456789'),
+('João Santos', 'joao@email.com', '$2y$10$ExemploHashJoao123456789'),
+('Ana Costa', 'ana@email.com', '$2y$10$ExemploHashAna123456789'),
+('Carlos Souza', 'carlos@email.com', '$2y$10$ExemploHashCarlos123456789'),
+('Juliana Oliveira', 'juliana@email.com', '$2y$10$ExemploHashJuliana123456789'),
+('Pedro Almeida', 'pedro@email.com', '$2y$10$ExemploHashPedro123456789'),
+('Lucas Ferreira', 'lucas@email.com', '$2y$10$ExemploHashLucas123456789'),
+('Fernanda Lima', 'fernanda@email.com', '$2y$10$ExemploHashFernanda123456789'),
+('Rafael Gomes', 'rafael@email.com', '$2y$10$ExemploHashRafael123456789'),
+('Patricia Martins', 'patricia@email.com', '$2y$10$ExemploHashPatricia123456789'),
+('Bruno Rocha', 'bruno@email.com', '$2y$10$ExemploHashBruno123456789'),
+('Gabriela Alves', 'gabriela@email.com', '$2y$10$ExemploHashGabriela123456789'),
+('Thiago Ribeiro', 'thiago@email.com', '$2y$10$ExemploHashThiago123456789'),
+('Camila Carvalho', 'camila@email.com', '$2y$10$ExemploHashCamila123456789'),
+('Diego Fernandes', 'diego@email.com', '$2y$10$ExemploHashDiego123456789'),
+('Larissa Teixeira', 'larissa@email.com', '$2y$10$ExemploHashLarissa123456789'),
+('Rodrigo Batista', 'rodrigo@email.com', '$2y$10$ExemploHashRodrigo123456789'),
+('Amanda Barros', 'amanda@email.com', '$2y$10$ExemploHashAmanda123456789'),
+('Gustavo Nunes', 'gustavo@email.com', '$2y$10$ExemploHashGustavo123456789');

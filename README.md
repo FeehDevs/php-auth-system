@@ -1,8 +1,5 @@
 # 📌 PHP Auth System
 
-<p align="center">
-  <img src="./docs/demo.gif" alt="Demonstração do sistema" />
-</p>
 
 Sistema de autenticação completo com cadastro e login de usuários, desenvolvido com PHP e PostgreSQL, aplicando arquitetura MVC, boas práticas de segurança e containerização com Docker.
 
@@ -127,11 +124,12 @@ docker-compose up --build
 
 ### 📱 Versão Mobile
 
-#### 🔐 Tela de Login
-![Login Mobile](./git/images/login-mobile.png)
+<p align="center">
+  <img src="./git/images/login-mobile.png" width="280"/>
+  <img src="./git/images/cadastro-mobile.png" width="280"/>
+  <img src="./git/images/dashboard-mobile.png" width="280"/>
+</p>
 
-#### 📝 Tela de Cadastro
-![Cadastro Mobile](./git/images/cadastro-mobile.png)
 ---
 
 ## 📈 Aprendizados

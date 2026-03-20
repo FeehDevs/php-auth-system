@@ -1,85 +1,136 @@
-# Authentication System
+📌 PHP Auth System
 
-A simple authentication system built to practice the complete workflow of a web application — from interface development to backend logic and deployment.
+Sistema de autenticação simples desenvolvido com foco em entender o funcionamento completo de uma aplicação web — desde a construção do backend até o deploy.
 
-This project focuses on understanding how a real application is structured, including frontend, backend, database integration, and deployment.
+🚀 Sobre o projeto
 
----
+O PHP Auth System é uma aplicação web que implementa um fluxo básico de autenticação, permitindo cadastro e login de usuários.
 
-# Preview
+Este projeto foi desenvolvido com o objetivo de aprofundar conhecimentos em desenvolvimento backend, arquitetura de software e integração com banco de dados.
 
-## Login Page
+🎯 Objetivo
 
-![Login Page](./git/images/login.png)
+Entender como funciona uma aplicação web completa
 
-## Register Page
+Implementar autenticação de usuários
 
-![Register Page](./git/images/register.png)
+Trabalhar com arquitetura MVC
 
-## Dashboard
+Praticar integração com banco de dados real
 
-![Dashboard](./git/images/dashboard.png)
+Aprender conceitos de API REST e preparação para consumo
 
----
+🛠️ Tecnologias utilizadas
 
-# Project Goal
+Backend: PHP
 
-The goal of this project is to simulate a real-world authentication flow while learning the architecture behind a production-ready web application.
+Banco de dados: PostgreSQL
 
-During development, the following concepts are explored:
+Conexão com banco: PDO
 
-- Frontend structure
-- Backend authentication logic
-- Database integration
-- Secure password handling
-- Session management
-- Deployment of a full web application
+Frontend: HTML, CSS, JavaScript
 
----
+Arquitetura: MVC
 
-# Features
+Containerização: Docker
 
-Current features implemented:
+Configuração de ambiente: .env
 
-- Responsive login interface
-- User registration page
-- Dashboard interface
-- Logout button
-- Mobile-first responsive design
-- Desktop layout support
-- Glassmorphism UI effect
-- Organized project structure
+⚙️ Funcionalidades
 
-Upcoming features:
+Cadastro de usuário (nome, email e senha)
 
-- User registration logic
-- Login authentication
-- Password hashing
-- PostgreSQL database integration
-- Session-based authentication
-- Protected routes
+Login de usuário
 
----
+Exibição de dados do usuário:
 
-# Tech Stack
+Nome
 
-Frontend
+Email
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+Data de criação
 
-Backend
+🔐 Segurança
 
-- PHP (Vanilla)
+Hash de senha para proteção de credenciais
 
-Database
+Validação de dados no frontend e backend
 
-- PostgreSQL
+Uso de variáveis de ambiente com .env
 
-Tools
+🧠 Conceitos aplicados
 
-- Git
-- GitHub
-- Local PHP Server
+Arquitetura MVC
 
+Separação de responsabilidades
+
+Estruturação de backend do zero
+
+Introdução a APIs REST
+
+Responsividade com CSS (media queries e root)
+
+🐳 Containerização
+
+O projeto utiliza Docker para facilitar a execução e padronização do ambiente, incluindo:
+
+Criação de container para aplicação
+
+Uso de Dockerfile (substituindo servidor interno do PHP)
+
+Integração com banco de dados via container
+
+📦 Como executar o projeto
+# Clonar o repositório
+git clone https://github.com/seu-usuario/php-auth-system.git
+
+# Entrar na pasta
+cd php-auth-system
+
+# Subir os containers
+docker-compose up --build
+🚧 Status do projeto
+
+🟡 Em desenvolvimento
+
+Atualmente em progresso:
+
+Implementação da camada Model
+
+Definição de rotas
+
+Criação de Services
+
+Desenvolvimento e consumo de API REST
+
+📸 Interface
+
+(Adicione aqui prints do sistema)
+
+📈 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram adquiridos conhecimentos importantes como:
+
+Funcionamento interno de autenticação web
+
+Estruturação de aplicações backend
+
+Importância de testes (em fase de estudo)
+
+Conceitos e estrutura de APIs REST
+
+Boas práticas de organização de código
+
+🔮 Próximos passos
+
+Finalizar estrutura de API REST
+
+Implementar consumo da API no frontend
+
+Adicionar testes
+
+Melhorar validações e tratamento de erros
+
+👨‍💻 Autor
+
+Desenvolvido por você 😄

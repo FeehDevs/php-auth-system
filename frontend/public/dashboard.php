@@ -19,14 +19,14 @@
     <div class="container">
         <h1>Dashboard</h1>
         <div class="info">
-            <h2>Bem Vindo {nome}!</h2>
+            <h2>Bem Vindo Felipe!</h2>
             <div class="email">
                 <p>E-mail</p>
-                <p>{email}</p>
+                <p>felipe@exemplo.com</p>
             </div>
             <div class="birth">
                 <p>Data de criação</p>
-                <p>{Data de criação}</p>
+                <p>18/03/2026</p>
             </div>
             <button class="button" type="submit">DESCONECTAR</button>
         </div>

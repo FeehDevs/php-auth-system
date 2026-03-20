@@ -125,9 +125,9 @@ docker-compose up --build
 ### 📱 Versão Mobile
 
 <p align="center">
-  <img src="./git/images/login-mobile.png" width="280"/>
-  <img src="./git/images/cadastro-mobile.png" width="280"/>
-  <img src="./git/images/dashboard-mobile.png" width="280"/>
+  <img src="./git/images/login-mobile.png" width="250"/>
+  <img src="./git/images/cadastro-mobile.png" width="250"/>
+  <img src="./git/images/dashboard-mobile.png" width="250"/>
 </p>
 
 ---

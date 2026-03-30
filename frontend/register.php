@@ -24,7 +24,7 @@
             <input type="password" name="" id="" placeholder="Senha" require>
             <button class="button" type="submit">ENVIAR</button>
         </form>
-        <a class="link" href="/backend//index.php">Já tenho cadastro</a>
+        <a class="link" href="/frontend/index.php">Já tenho cadastro</a>
     </div>
 
 </body>

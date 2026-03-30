@@ -23,7 +23,7 @@
             <input type="password" name="" id="" placeholder="Senha" require>
             <button class="button" type="submit">ENVIAR</button>
         </form>
-        <a class="link" href="/frontend/public/register.php">Ainda não tenho cadastro</a>
+        <a class="link" href="/frontend/register.php">Ainda não tenho cadastro</a>
     </div>
 
 </body>
